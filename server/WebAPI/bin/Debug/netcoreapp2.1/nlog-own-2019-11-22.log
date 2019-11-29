@@ -1,0 +1,12 @@
+2019-11-22 13:31:43.3239||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-11-22 13:32:15.3297||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-11-22 13:32:18.7479||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-11-22 13:37:13.3703||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-11-22 13:39:15.9784||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-11-22 13:40:20.5953||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-11-22 13:40:36.5292||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-11-22 13:40:56.6248||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-11-22 13:53:30.7523||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-11-22 13:53:32.6161||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-11-22 13:53:32.7768||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-11-22 13:53:47.7466||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails

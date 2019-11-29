@@ -1,0 +1,15 @@
+2019-11-25 16:06:40.2151||DEBUG|WebAPI.Program|init main 
+2019-11-25 16:07:16.8076||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-11-25 16:07:17.9562||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-11-25 16:07:18.5452||INFO|WebAPI.Startup|In Development environment 
+2019-11-25 16:07:22.2060|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/values   
+2019-11-25 16:07:22.2060|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-11-25 16:07:22.5369|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 330.4391ms 200  
+2019-11-25 16:07:25.4563|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-11-25 16:07:27.9278|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-11-25 16:07:27.9410|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6861ms. 
+2019-11-25 16:07:27.9742|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-11-25 16:07:28.5740|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 3100.8291ms 
+2019-11-25 16:07:28.6361|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6431.4112ms 200 application/json; charset=utf-8 
+2019-11-25 16:07:29.0069|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/favicon.ico   
+2019-11-25 16:07:29.0069|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.156ms 404  

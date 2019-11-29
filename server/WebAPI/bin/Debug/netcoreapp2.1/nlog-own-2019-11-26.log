@@ -1,0 +1,1 @@
+2019-11-26 09:28:22.0055||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails

@@ -1,0 +1,35 @@
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.deps.json
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.runtimeconfig.json
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.runtimeconfig.dev.json
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPI.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPI.pdb
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csprojAssemblyReference.cache
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csproj.CoreCompileInputs.cache
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.AssemblyInfoInputs.cache
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.AssemblyInfo.cs
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csproj.CopyComplete
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.pdb
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.dll
+D:\Project - Copy\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.pdb
+D:\Project - Copy\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\nlog.config
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.deps.json
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.runtimeconfig.json
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.runtimeconfig.dev.json
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.dll
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.pdb
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPI.dll
+D:\Project\server\WebAPIIntegrationTestProject\bin\Debug\netcoreapp2.1\WebAPI.pdb
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csprojAssemblyReference.cache
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csproj.CoreCompileInputs.cache
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.AssemblyInfoInputs.cache
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.AssemblyInfo.cs
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.csproj.CopyComplete
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.dll
+D:\Project\server\WebAPIIntegrationTestProject\obj\Debug\netcoreapp2.1\WebAPIIntegrationTestProject.pdb

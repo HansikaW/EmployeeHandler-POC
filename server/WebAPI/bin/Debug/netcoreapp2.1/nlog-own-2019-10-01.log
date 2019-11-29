@@ -1,0 +1,4 @@
+2019-10-01 13:43:17.9448||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-01 13:43:25.7120||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-01 13:43:26.1856||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-01 13:46:08.0215||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             http://localhost/api/EmployeeDetail|action: GetEmployeeDetails

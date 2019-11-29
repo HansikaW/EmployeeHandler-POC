@@ -1,0 +1,3 @@
+2019-11-25 16:06:40.2151||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-11-25 16:07:16.8076||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-11-25 16:07:18.5452||INFO|WebAPI.Startup|In Development environment |url:             |action: 

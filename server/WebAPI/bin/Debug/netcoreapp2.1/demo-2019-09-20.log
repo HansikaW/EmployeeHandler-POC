@@ -1,0 +1,592 @@
+2019-09-20 10:25:52.2769||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:25:54.4053||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:25:54.4945||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:25:54.5717||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:25:54.9614|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 10:25:54.9614|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-09-20 10:25:54.9948|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.247ms 200  
+2019-09-20 10:25:55.1971|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 10:25:55.3668|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 10:25:55.3668|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4159ms. 
+2019-09-20 10:25:55.3668|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 10:25:55.4195|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 219.0646ms 
+2019-09-20 10:25:55.4195|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 463.9955ms 200 application/json; charset=utf-8 
+2019-09-20 10:33:16.5194||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:33:18.2046||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:33:18.3000||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:33:18.3749||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:33:18.8233|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 10:33:18.8233|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-09-20 10:33:18.8656|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.7393ms 200  
+2019-09-20 10:33:19.0697|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 10:33:19.2555|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 10:33:19.2668|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.9459ms. 
+2019-09-20 10:33:19.2668|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 10:33:19.3188|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 245.6594ms 
+2019-09-20 10:33:19.3188|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 501.9695ms 200 application/json; charset=utf-8 
+2019-09-20 10:36:22.9804||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:36:24.8038||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:36:24.9017||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:36:24.9754||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:36:25.2652|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 10:36:25.2652|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-09-20 10:36:25.3001|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.986ms 200  
+2019-09-20 10:36:25.4952|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 10:36:25.7003|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 10:36:25.7003|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4678ms. 
+2019-09-20 10:36:25.7156|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 10:36:25.7697|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 269.8681ms 
+2019-09-20 10:36:25.7697|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 513.1656ms 200 application/json; charset=utf-8 
+2019-09-20 10:36:53.8547||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:36:55.4217||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:36:55.5221||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:36:55.5931||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:36:55.9901|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-09-20 10:36:55.9901|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 10:36:56.0457|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.2986ms 200  
+2019-09-20 10:36:56.2762|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 10:36:56.4462|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 10:36:56.4462|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.4976ms. 
+2019-09-20 10:36:56.4597|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 10:36:56.5114|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 230.6644ms 
+2019-09-20 10:36:56.5181|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 529.2534ms 200 application/json; charset=utf-8 
+2019-09-20 10:40:36.9595||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:40:46.1727||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:40:46.6553||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:40:46.6968||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:40:46.7433||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:40:47.0463|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 10:40:47.2158|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 10:40:47.2820|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 10:40:47.2820|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2698ms. 
+2019-09-20 10:40:47.2934|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 10:40:47.3285|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 109.6616ms 
+2019-09-20 10:40:47.3343|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 288.1884ms 200 application/json; charset=utf-8 
+2019-09-20 10:54:20.3753||DEBUG|WebAPI.Program|init main 
+2019-09-20 10:54:20.8302||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 10:54:20.8652||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 10:54:20.9269||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 10:54:21.1946|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 10:54:21.1946|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/UserProfile   
+2019-09-20 10:54:21.2124|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:21.2124|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:21.2124|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.0685ms 204  
+2019-09-20 10:54:21.2308|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/UserProfile   
+2019-09-20 10:54:21.2308|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:21.3539|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 10:54:21.3539|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-09-20 10:54:21.3539|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-09-20 10:54:21.3539|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-09-20 10:54:21.3817|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-09-20 10:54:21.4163|12|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was challenged. 
+2019-09-20 10:54:21.4163|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 61.84ms 
+2019-09-20 10:54:21.4163|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 194.7328ms 302  
+2019-09-20 10:54:21.4379|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:21.4379|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/Identity/Account/Login?ReturnUrl=%2Fapi%2FUserProfile   
+2019-09-20 10:54:21.4379|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:21.4379|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.2433ms 204  
+2019-09-20 10:54:21.4379|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/Identity/Account/Login?ReturnUrl=%2Fapi%2FUserProfile   
+2019-09-20 10:54:21.4473|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:21.5672|1|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing action /Account/Login 
+2019-09-20 10:54:21.5948|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method OnGetAsync - ModelState is Valid 
+2019-09-20 10:54:21.6242|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:21.6242|11|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out. 
+2019-09-20 10:54:21.7823|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 10:54:21.8534||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 10:54:21.8534|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 420.1888ms. 
+2019-09-20 10:54:21.8534|2|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed action /Account/Login in 294.4047ms 
+2019-09-20 10:54:21.8534|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The default Identity UI layout requires a partial view '_LoginPartial' usually located at '/Pages/_LoginPartial' or at '/Views/Shared/_LoginPartial' to work. Based on your configuration we have looked at it in the following locations: 
+/Areas/Identity/Pages/Account/_LoginPartial.cshtml
+/Areas/Identity/Pages/_LoginPartial.cshtml
+/Areas/Identity/Pages/Shared/_LoginPartial.cshtml
+/Areas/Identity/Views/Shared/_LoginPartial.cshtml
+/Pages/Shared/_LoginPartial.cshtml
+/Views/Shared/_LoginPartial.cshtml.
+   at Microsoft.AspNetCore.Identity.UI.Pages.Internal.Areas_Identity_Pages__Layout.<ExecuteAsync>b__38_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at Microsoft.AspNetCore.Identity.UI.Pages.Internal.Areas_Identity_Pages__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:21.8534|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 10:54:21.9370|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 582.4096ms 
+2019-09-20 10:54:21.9370|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 749.1298ms 200 application/json; charset=utf-8 
+2019-09-20 10:54:21.9529|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 506.4733ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:25.7789|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/EmployeeDetail   
+2019-09-20 10:54:25.7789|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:25.7789|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.3795ms 204  
+2019-09-20 10:54:25.7789|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/EmployeeDetail application/json 65 
+2019-09-20 10:54:25.7789|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:25.7924|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "PostEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostEmployeeDetail(WebAPI.Models.EmployeeDetail) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 10:54:25.8153|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:25.8153|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:25.8700|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 10), @p1='?' (Size = 100), @p2='?' (Size = 10), @p3='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmployeeDetails] ([BDay], [EmployeeName], [Nic], [PhoneNo])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [EId]
+FROM [EmployeeDetails]
+WHERE @@ROWCOUNT = 1 AND [EId] = scope_identity(); 
+2019-09-20 10:54:25.8889|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 72.7335ms. 
+2019-09-20 10:54:25.8889|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WebAPI.Models.EmployeeDetail'. 
+2019-09-20 10:54:25.8889|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI) in 98.7706ms 
+2019-09-20 10:54:25.8889|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 106.0413ms 201 application/json; charset=utf-8 
+2019-09-20 10:54:25.8889|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 10:54:25.8996|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:25.8996|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 10:54:25.8996|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:25.8996|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:25.8996|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 10:54:25.8996||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 10:54:25.8996|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3429ms. 
+2019-09-20 10:54:25.8996|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 10:54:25.8996|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 6.2039ms 
+2019-09-20 10:54:25.8996|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8798ms 200 application/json; charset=utf-8 
+2019-09-20 10:54:27.8413|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/EmployeeDetail/43   
+2019-09-20 10:54:27.8413|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:27.8413|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4175ms 204  
+2019-09-20 10:54:27.8413|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:51417/api/EmployeeDetail/43   
+2019-09-20 10:54:27.8413|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:27.8530|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 10:54:27.8530|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:27.8530|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:27.8850|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-09-20 10:54:27.9148|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EmployeeDetails]
+WHERE [EId] = @p0;
+SELECT @@ROWCOUNT; 
+2019-09-20 10:54:27.9189|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkResult in 64.1797ms. 
+2019-09-20 10:54:27.9189|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-09-20 10:54:27.9189|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI) in 69.8606ms 
+2019-09-20 10:54:27.9189|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.853ms 200  
+2019-09-20 10:54:27.9189|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 10:54:27.9311|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:27.9311|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 10:54:27.9311|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:27.9311|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:27.9311|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 10:54:27.9311||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 10:54:27.9311|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.1918ms. 
+2019-09-20 10:54:27.9311|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 10:54:27.9311|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 5.1088ms 
+2019-09-20 10:54:27.9311|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.8003ms 200 application/json; charset=utf-8 
+2019-09-20 10:54:39.6075|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/applicationUser/Login   
+2019-09-20 10:54:39.6075|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:39.6075|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4915ms 204  
+2019-09-20 10:54:39.6075|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:39.6075|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:39.6196|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:39.6196|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:39.6196|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:39.6482|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:39.7020|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 81.5948ms 
+2019-09-20 10:54:39.7020|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:39.7232|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.9661ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:40.5699|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:40.5699|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:40.5699|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:40.5722|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:40.5722|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:40.5722|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:40.5889|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 17.3085ms 
+2019-09-20 10:54:40.5889|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:40.5889|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.2614ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:41.8579|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:41.8579|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:41.8579|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:41.8579|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:41.8579|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:41.8579|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:41.8730|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 13.0991ms 
+2019-09-20 10:54:41.8730|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:41.8850|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.1122ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:42.1298|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:42.1298|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:42.1298|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:42.1298|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:42.1298|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:42.1298|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:42.1452|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 13.4415ms 
+2019-09-20 10:54:42.1452|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:42.1567|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.902ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:42.7619|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:42.7619|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:42.7619|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:42.7619|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:42.7619|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:42.7619|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:42.7771|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 13.2561ms 
+2019-09-20 10:54:42.7771|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:42.7771|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.1871ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:43.0185|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:43.0185|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:43.0185|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:43.0185|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:43.0185|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:43.0185|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:43.0324|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 12.1523ms 
+2019-09-20 10:54:43.0324|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:43.0429|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.4355ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:44.1141|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:44.1141|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:44.1141|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:44.1141|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:44.1141|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:44.1141|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:44.1284|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 12.5284ms 
+2019-09-20 10:54:44.1284|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:44.1396|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.5294ms 500 text/html; charset=utf-8 
+2019-09-20 10:54:44.3461|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:54:44.3461|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:54:44.3461|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:54:44.3461|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:54:44.3461|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:54:44.3461|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:54:44.3610|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 13.0672ms 
+2019-09-20 10:54:44.3610|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:54:44.3721|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.0793ms 500 text/html; charset=utf-8 
+2019-09-20 10:55:08.0586|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/applicationUser/Login   
+2019-09-20 10:55:08.0586|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:55:08.0586|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.6301ms 204  
+2019-09-20 10:55:08.0586|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 10:55:08.0586|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 10:55:08.0586|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 10:55:08.0586|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 10:55:08.0586|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 10:55:08.0764|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 10:55:08.0764|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 18.1463ms 
+2019-09-20 10:55:08.0884|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at WebAPI.Controllers.ApplicationUserController.Login(LoginModel model) in D:\Project - Copy\server\WebAPI\Controllers\ApplicationUserController.cs:line 64
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-20 10:55:08.0884|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.294ms 500 text/html; charset=utf-8 
+2019-09-20 11:32:27.3899||DEBUG|WebAPI.Program|init main 
+2019-09-20 11:32:27.8485||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-09-20 11:32:27.8847||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-09-20 11:32:27.9281||INFO|WebAPI.Startup|In Development environment 
+2019-09-20 11:32:28.2296|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/values   
+2019-09-20 11:32:28.3541|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-09-20 11:32:28.4395|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:28.4395|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2936ms. 
+2019-09-20 11:32:28.4512|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-09-20 11:32:28.4906|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 132.9834ms 
+2019-09-20 11:32:28.4906|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 267.9131ms 200 application/json; charset=utf-8 
+2019-09-20 11:32:37.7999|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/employeedetail   
+2019-09-20 11:32:37.8068|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:37.8068|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:37.9742|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:38.1231|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 11:32:38.1866||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 11:32:38.1866|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 382.2235ms. 
+2019-09-20 11:32:38.1950|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 11:32:38.1950|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 397.9219ms 
+2019-09-20 11:32:38.2103|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 410.3443ms 200 application/json; charset=utf-8 
+2019-09-20 11:32:44.2448|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/applicationUser/Login   
+2019-09-20 11:32:44.2448|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:44.2448|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7548ms 204  
+2019-09-20 11:32:44.2448|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51417/api/applicationUser/Login application/json 38 
+2019-09-20 11:32:44.2448|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:44.2680|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-09-20 11:32:44.2996|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:44.3063|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:44.3422|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-09-20 11:32:44.3942|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 93.8076ms. 
+2019-09-20 11:32:44.3942|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2019-09-20 11:32:44.3977|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 128.9515ms 
+2019-09-20 11:32:44.3977|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 144.0719ms 200 application/json; charset=utf-8 
+2019-09-20 11:32:44.4421|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:51417/api/UserProfile   
+2019-09-20 11:32:44.4421|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:44.4421|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.5339ms 204  
+2019-09-20 11:32:44.4440|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 11:32:44.4440|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:44.4440|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:44.4440|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:44.4440|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:44.4440|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 11:32:44.4440||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 11:32:44.4440|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.7835ms. 
+2019-09-20 11:32:44.4440|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 11:32:44.4440|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 10.3915ms 
+2019-09-20 11:32:44.4440|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.5025ms 200 application/json; charset=utf-8 
+2019-09-20 11:32:44.4595|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/UserProfile   
+2019-09-20 11:32:44.4595|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:44.4595|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-09-20 11:32:44.4778|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-09-20 11:32:44.4778|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-09-20 11:32:44.4778|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-09-20 11:32:44.5008|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-09-20 11:32:44.5008|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-09-20 11:32:44.5008|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 34.8999ms 
+2019-09-20 11:32:44.5008|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.0449ms 401  
+2019-09-20 11:32:48.6400|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:4200/api/EmployeeDetail/32 application/json 87 
+2019-09-20 11:32:48.6400|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:48.6513|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "PutEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutEmployeeDetail(Int32, WebAPI.Models.EmployeeDetail) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:48.6513|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:48.6729|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:48.7278|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 10), @p1='?' (Size = 100), @p2='?' (Size = 10), @p3='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [EmployeeDetails] SET [BDay] = @p0, [EmployeeName] = @p1, [Nic] = @p2, [PhoneNo] = @p3
+WHERE [EId] = @p4;
+SELECT @@ROWCOUNT; 
+2019-09-20 11:32:48.7278|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkResult in 75.1633ms. 
+2019-09-20 11:32:48.7414|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-09-20 11:32:48.7414|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) in 89.3872ms 
+2019-09-20 11:32:48.7414|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 102.4588ms 200  
+2019-09-20 11:32:48.7414|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 11:32:48.7414|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:48.7414|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:48.7414|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:48.7414|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:48.7414|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 11:32:48.7563||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 11:32:48.7563|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.5582ms. 
+2019-09-20 11:32:48.7563|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 11:32:48.7563|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 5.7263ms 
+2019-09-20 11:32:48.7563|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.5108ms 200 application/json; charset=utf-8 
+2019-09-20 11:32:52.6335|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:4200/api/EmployeeDetail/32 application/json 86 
+2019-09-20 11:32:52.6335|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:52.6335|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "PutEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutEmployeeDetail(Int32, WebAPI.Models.EmployeeDetail) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:52.6335|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:52.6335|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:52.6335|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 10), @p1='?' (Size = 100), @p2='?' (Size = 10), @p3='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [EmployeeDetails] SET [BDay] = @p0, [EmployeeName] = @p1, [Nic] = @p2, [PhoneNo] = @p3
+WHERE [EId] = @p4;
+SELECT @@ROWCOUNT; 
+2019-09-20 11:32:52.6335|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.0955ms. 
+2019-09-20 11:32:52.6335|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-09-20 11:32:52.6335|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) in 6.4597ms 
+2019-09-20 11:32:52.6335|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.3947ms 200  
+2019-09-20 11:32:52.6512|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/EmployeeDetail   
+2019-09-20 11:32:52.6512|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-09-20 11:32:52.6512|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-09-20 11:32:52.6512|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-09-20 11:32:52.6512|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-09-20 11:32:52.6512|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-09-20 11:32:52.6512||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-09-20 11:32:52.6512|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3775ms. 
+2019-09-20 11:32:52.6512|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-09-20 11:32:52.6512|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 6.5084ms 
+2019-09-20 11:32:52.6512|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.1005ms 200 application/json; charset=utf-8 

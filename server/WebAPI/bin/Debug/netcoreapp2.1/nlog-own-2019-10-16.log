@@ -1,0 +1,132 @@
+2019-10-16 08:16:41.9758||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:16:59.4303||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:17:10.5452||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:17:22.6203||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:17:28.5494||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:17:32.2613||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 08:19:17.5649||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail/|action: GetEmployeeDetails
+2019-10-16 08:19:29.8318||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail/|action: GetEmployeeDetails
+2019-10-16 08:19:33.8486||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail/32|action: GetEmployeeDetail
+2019-10-16 08:19:40.2508||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: (null) |url:             https://localhost/api/EmployeeDetail/3|action: GetEmployeeDetail
+2019-10-16 08:19:45.6486||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: (null) |url:             https://localhost/api/EmployeeDetail/3|action: GetEmployeeDetail
+2019-10-16 08:19:48.5407||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail/32|action: GetEmployeeDetail
+2019-10-16 09:15:48.9244||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 11:48:48.7493||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 12:20:20.4341||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             http://localhost/api/employeedetail|action: GetEmployeeDetails
+2019-10-16 12:36:22.0102||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 12:36:22.5295||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 12:36:22.6196||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 12:36:23.4670||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             http://localhost/api/employeedetail|action: GetEmployeeDetails
+2019-10-16 13:32:53.9994||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:32:54.5066||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:32:54.6143||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:35:46.2742||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:35:48.3702||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:35:48.5993||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:35:48.7759||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:46097' instead.  |url:             |action: 
+2019-10-16 13:35:49.5301||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:35:50.1418||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:35:50.2348||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:35:50.2992||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:15339' instead.  |url:             |action: 
+2019-10-16 13:36:00.4934||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:36:02.3456||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:36:02.5120||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:36:02.6598||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:43174' instead.  |url:             |action: 
+2019-10-16 13:36:03.4176||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:36:03.8975||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:36:03.9781||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:36:04.0403||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:47922' instead.  |url:             |action: 
+2019-10-16 13:36:31.2959||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:36:31.8252||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:36:31.9178||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:36:31.9884||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:11901' instead.  |url:             |action: 
+2019-10-16 13:36:35.5483||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:36:36.0867||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:36:36.1817||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:36:36.2549||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:37243' instead.  |url:             |action: 
+2019-10-16 13:37:21.5536||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:37:23.3633||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:37:23.5091||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:37:23.6634||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:10467' instead.  |url:             |action: 
+2019-10-16 13:37:24.3255||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:37:24.8094||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:37:24.8867||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:37:24.9523||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:1111' instead.  |url:             |action: 
+2019-10-16 13:41:48.0188||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:41:49.9986||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:41:50.1514||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:41:50.3025||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:38264' instead.  |url:             |action: 
+2019-10-16 13:41:50.9341||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:41:51.4767||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:41:51.5721||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:41:51.6482||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:23175' instead.  |url:             |action: 
+2019-10-16 13:42:01.9699||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:42:03.9923||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:42:04.1527||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:42:04.3312||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:32015' instead.  |url:             |action: 
+2019-10-16 13:42:05.0888||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:42:05.6303||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:42:05.7164||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:42:05.7932||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:9454' instead.  |url:             |action: 
+2019-10-16 13:42:16.2815||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:42:18.2387||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:42:18.4166||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:42:18.5818||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:27109' instead.  |url:             |action: 
+2019-10-16 13:42:19.2405||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:42:19.7472||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:42:19.8305||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:42:19.8973||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:37140' instead.  |url:             |action: 
+2019-10-16 13:42:56.3942||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:42:56.9005||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:42:56.9895||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:42:57.0588||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:23197' instead.  |url:             |action: 
+2019-10-16 13:43:53.4949||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:43:55.3831||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:43:55.5500||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:43:55.7320||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:46351' instead.  |url:             |action: 
+2019-10-16 13:43:56.5329||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:43:57.0543||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:43:57.1366||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:43:57.2022||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:15690' instead.  |url:             |action: 
+2019-10-16 13:44:10.5545||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:12.4150||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:12.5659||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:12.7176||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:6350' instead.  |url:             |action: 
+2019-10-16 13:44:13.4329||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:13.9359||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:14.0176||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:14.0838||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:43933' instead.  |url:             |action: 
+2019-10-16 13:44:28.4330||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:30.5354||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:30.6972||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:30.8574||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:45211' instead.  |url:             |action: 
+2019-10-16 13:44:31.7635||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:32.2771||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:32.3599||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:32.4245||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:17656' instead.  |url:             |action: 
+2019-10-16 13:44:44.3747||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:46.2287||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:46.4022||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:46.5555||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:11641' instead.  |url:             |action: 
+2019-10-16 13:44:47.3132||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:44:47.8494||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:44:47.9323||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:44:48.0026||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:30955' instead.  |url:             |action: 
+2019-10-16 13:45:04.2572||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:45:06.2908||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:45:06.4493||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:45:06.6284||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:36572' instead.  |url:             |action: 
+2019-10-16 13:45:07.3520||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:45:07.8791||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:45:07.9853||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 13:45:08.0599||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:44879' instead.  |url:             |action: 
+2019-10-16 13:52:40.3312||DEBUG|WebAPI.Program|init main |url:             |action: 
+2019-10-16 13:52:42.5002||INFO|WebAPI.Startup|Added TodoRepository to services |url:             |action: 
+2019-10-16 13:52:42.6765||INFO|WebAPI.Startup|In Development environment |url:             |action: 
+2019-10-16 15:57:16.0021||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 15:57:19.0380||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 15:57:25.9349||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 15:57:33.7205||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 15:59:48.1275||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 15:59:54.7099||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails
+2019-10-16 16:00:28.7213||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail |url:             https://localhost/api/EmployeeDetail|action: GetEmployeeDetails

@@ -1,0 +1,756 @@
+2019-10-16 08:16:41.8980|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:16:41.8980|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 08:16:41.9283|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:41.9283|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:41.9283|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.2658ms 204  
+2019-10-16 08:16:41.9283|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:16:41.9283|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 08:16:41.9469|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:41.9469|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 08:16:41.9469|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 08:16:41.9469|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:16:41.9469|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 08:16:41.9469|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 08:16:41.9469|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:16:41.9469|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 08:16:41.9469|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 08:16:41.9469|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 5.1678ms 
+2019-10-16 08:16:41.9469|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.4268ms 401  
+2019-10-16 08:16:41.9758|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:16:41.9758||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:16:41.9758|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30.3812ms. 
+2019-10-16 08:16:41.9758|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:16:41.9758|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 34.527ms 
+2019-10-16 08:16:41.9758|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.7147ms 200 application/json; charset=utf-8 
+2019-10-16 08:16:59.4303|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 08:16:59.4303|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:59.4303|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1822ms 204  
+2019-10-16 08:16:59.4303|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:16:59.4303|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:59.4303|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:16:59.4303|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:16:59.4303|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:16:59.4303|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:16:59.4303||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:16:59.4303|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.0353ms. 
+2019-10-16 08:16:59.4303|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:16:59.4303|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 4.7637ms 
+2019-10-16 08:16:59.4303|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.2353ms 200 application/json; charset=utf-8 
+2019-10-16 08:16:59.4647|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 08:16:59.4647|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:16:59.4647|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 08:16:59.4647|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 08:16:59.4647|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 08:16:59.4647|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 08:16:59.4647|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 08:16:59.4647|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 08:16:59.4647|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 1.817ms 
+2019-10-16 08:16:59.4647|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6752ms 401  
+2019-10-16 08:17:10.4810|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/applicationUser/Login   
+2019-10-16 08:17:10.4810|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:10.4810|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1944ms 204  
+2019-10-16 08:17:10.4954|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44305/api/applicationUser/Login application/json 38 
+2019-10-16 08:17:10.4954|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:10.4954|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-10-16 08:17:10.4954|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:10.4954|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:10.4954|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-10-16 08:17:10.5150|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.9204ms. 
+2019-10-16 08:17:10.5150|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2019-10-16 08:17:10.5150|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 19.322ms 
+2019-10-16 08:17:10.5150|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.8818ms 200 application/json; charset=utf-8 
+2019-10-16 08:17:10.5452|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 08:17:10.5452|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:10.5452|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 0.9582ms 204  
+2019-10-16 08:17:10.5452|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:17:10.5452|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:10.5452|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:10.5452|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:10.5452|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:10.5452|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:17:10.5452||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:17:10.5452|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.6753ms. 
+2019-10-16 08:17:10.5452|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:17:10.5452|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 5.56ms 
+2019-10-16 08:17:10.5452|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6948ms 200 application/json; charset=utf-8 
+2019-10-16 08:17:10.5709|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 08:17:10.5717|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:10.5717|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 08:17:10.5717|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 08:17:10.5717|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 08:17:10.5717|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 08:17:10.5717|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 08:17:10.5717|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 08:17:10.5717|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 2.0622ms 
+2019-10-16 08:17:10.5717|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4702ms 401  
+2019-10-16 08:17:22.5708|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/EmployeeDetail/23   
+2019-10-16 08:17:22.5708|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:22.5708|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1002ms 204  
+2019-10-16 08:17:22.5854|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:44305/api/EmployeeDetail/23 application/json 98 
+2019-10-16 08:17:22.5854|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:22.5854|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "PutEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutEmployeeDetail(Int32, WebAPI.Models.EmployeeDetail) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:22.5880|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:22.5880|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:22.5880|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 10), @p1='?' (Size = 100), @p2='?' (Size = 10), @p3='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [EmployeeDetails] SET [BDay] = @p0, [EmployeeName] = @p1, [Nic] = @p2, [PhoneNo] = @p3
+WHERE [EId] = @p4;
+SELECT @@ROWCOUNT; 
+2019-10-16 08:17:22.5880|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkResult in 10.3974ms. 
+2019-10-16 08:17:22.5880|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-10-16 08:17:22.5880|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.PutEmployeeDetail (WebAPI) in 14.2455ms 
+2019-10-16 08:17:22.5880|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.5858ms 200  
+2019-10-16 08:17:22.6157|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:17:22.6157|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:22.6157|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:22.6157|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:22.6157|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:22.6203|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:17:22.6203||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:17:22.6203|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1748ms. 
+2019-10-16 08:17:22.6203|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:17:22.6203|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 7.232ms 
+2019-10-16 08:17:22.6203|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.3735ms 200 application/json; charset=utf-8 
+2019-10-16 08:17:28.5061|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:17:28.5061|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:28.5061|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.3409ms 204  
+2019-10-16 08:17:28.5196|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44305/api/EmployeeDetail application/json 65 
+2019-10-16 08:17:28.5196|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:28.5196|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "PostEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostEmployeeDetail(WebAPI.Models.EmployeeDetail) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:28.5196|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:28.5196|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:28.5297|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 10), @p1='?' (Size = 100), @p2='?' (Size = 10), @p3='?' (Size = 10)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmployeeDetails] ([BDay], [EmployeeName], [Nic], [PhoneNo])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [EId]
+FROM [EmployeeDetails]
+WHERE @@ROWCOUNT = 1 AND [EId] = scope_identity(); 
+2019-10-16 08:17:28.5297|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 5.9102ms. 
+2019-10-16 08:17:28.5297|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WebAPI.Models.EmployeeDetail'. 
+2019-10-16 08:17:28.5297|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.PostEmployeeDetail (WebAPI) in 10.6695ms 
+2019-10-16 08:17:28.5297|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.2918ms 201 application/json; charset=utf-8 
+2019-10-16 08:17:28.5494|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:17:28.5494|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:28.5494|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:28.5494|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:28.5494|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:28.5494|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:17:28.5494||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:17:28.5579|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.008ms. 
+2019-10-16 08:17:28.5579|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:17:28.5579|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 7.816ms 
+2019-10-16 08:17:28.5579|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.3843ms 200 application/json; charset=utf-8 
+2019-10-16 08:17:32.2267|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/EmployeeDetail/3009   
+2019-10-16 08:17:32.2267|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:32.2267|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1699ms 204  
+2019-10-16 08:17:32.2370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:44305/api/EmployeeDetail/3009   
+2019-10-16 08:17:32.2370|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:32.2370|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:32.2370|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:32.2370|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:32.2370|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-10-16 08:17:32.2464|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EmployeeDetails]
+WHERE [EId] = @p0;
+SELECT @@ROWCOUNT; 
+2019-10-16 08:17:32.2464|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkResult in 9.2867ms. 
+2019-10-16 08:17:32.2464|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-10-16 08:17:32.2464|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.DeleteEmployeeDetail (WebAPI) in 10.9535ms 
+2019-10-16 08:17:32.2464|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.7059ms 200  
+2019-10-16 08:17:32.2464|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 08:17:32.2613|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 08:17:32.2613|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:17:32.2613|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:17:32.2613|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:17:32.2613|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:17:32.2613||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:17:32.2613|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.8078ms. 
+2019-10-16 08:17:32.2613|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:17:32.2613|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 4.2285ms 
+2019-10-16 08:17:32.2613|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.0676ms 200 application/json; charset=utf-8 
+2019-10-16 08:19:17.5642|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/   
+2019-10-16 08:19:17.5649|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:17.5649|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:17.5649|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:17.5649|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:19:17.5649||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:19:17.5649|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.687ms. 
+2019-10-16 08:19:17.5649|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:19:17.5649|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 5.1559ms 
+2019-10-16 08:19:17.5649|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.7146ms 200 application/json; charset=utf-8 
+2019-10-16 08:19:29.8296|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/   
+2019-10-16 08:19:29.8296|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:29.8296|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:29.8318|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:29.8318|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 08:19:29.8318||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 08:19:29.8318|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.2665ms. 
+2019-10-16 08:19:29.8318|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 08:19:29.8318|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 5.8509ms 
+2019-10-16 08:19:29.8318|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6456ms 200 application/json; charset=utf-8 
+2019-10-16 08:19:33.8349|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/32   
+2019-10-16 08:19:33.8349|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:33.8349|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:33.8486|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:33.8486|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-10-16 08:19:33.8486||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail 
+2019-10-16 08:19:33.8486|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.9618ms. 
+2019-10-16 08:19:33.8486|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WebAPI.Models.EmployeeDetail'. 
+2019-10-16 08:19:33.8486|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) in 12.4527ms 
+2019-10-16 08:19:33.8486|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.9306ms 200 application/json; charset=utf-8 
+2019-10-16 08:19:40.2285|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/3   
+2019-10-16 08:19:40.2285|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:40.2285|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:40.2285|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:40.2285|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-10-16 08:19:40.2508||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: (null) 
+2019-10-16 08:19:40.2508|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 21.6045ms. 
+2019-10-16 08:19:40.2508|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404 
+2019-10-16 08:19:40.2508|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) in 23.1207ms 
+2019-10-16 08:19:40.2508|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.3878ms 404  
+2019-10-16 08:19:45.6486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/3   
+2019-10-16 08:19:45.6486|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:45.6486|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:45.6486|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:45.6486|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-10-16 08:19:45.6486||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: (null) 
+2019-10-16 08:19:45.6486|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 5.6759ms. 
+2019-10-16 08:19:45.6486|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404 
+2019-10-16 08:19:45.6486|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) in 7.3468ms 
+2019-10-16 08:19:45.6486|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.9678ms 404  
+2019-10-16 08:19:48.5407|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail/32   
+2019-10-16 08:19:48.5407|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetail", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeDetail(Int32) on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 08:19:48.5407|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) - Validation state: Valid 
+2019-10-16 08:19:48.5407|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 08:19:48.5407|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e]
+WHERE [e].[EId] = @__get_Item_0 
+2019-10-16 08:19:48.5407||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail 
+2019-10-16 08:19:48.5407|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.9423ms. 
+2019-10-16 08:19:48.5407|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'WebAPI.Models.EmployeeDetail'. 
+2019-10-16 08:19:48.5407|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetail (WebAPI) in 6.2985ms 
+2019-10-16 08:19:48.5407|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.7527ms 200 application/json; charset=utf-8 
+2019-10-16 09:15:48.7713|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/applicationUser/Login   
+2019-10-16 09:15:48.7713|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 09:15:48.7713|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4698ms 204  
+2019-10-16 09:15:48.7845|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44305/api/applicationUser/Login application/json 38 
+2019-10-16 09:15:48.7845|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 09:15:48.7845|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "ApplicationUser", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebAPI.Models.LoginModel) on controller WebAPI.Controllers.ApplicationUserController (WebAPI). 
+2019-10-16 09:15:48.7845|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI) - Validation state: Valid 
+2019-10-16 09:15:48.7845|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 09:15:48.8498|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (56ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FullName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'ApplicationUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0) 
+2019-10-16 09:15:48.8602|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ApplicationUserController.Login (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 72.7304ms. 
+2019-10-16 09:15:48.8602|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2019-10-16 09:15:48.8602|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ApplicationUserController.Login (WebAPI) in 75.6227ms 
+2019-10-16 09:15:48.8602|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.6791ms 200 application/json; charset=utf-8 
+2019-10-16 09:15:48.9244|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 09:15:48.9244|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 09:15:48.9244|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.5057ms 204  
+2019-10-16 09:15:48.9244|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 09:15:48.9244|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 09:15:48.9244|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 09:15:48.9244|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 09:15:48.9244|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 09:15:48.9244|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 09:15:48.9244||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 09:15:48.9244|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.4174ms. 
+2019-10-16 09:15:48.9244|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 09:15:48.9244|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 4.8014ms 
+2019-10-16 09:15:48.9244|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.852ms 200 application/json; charset=utf-8 
+2019-10-16 09:15:48.9601|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 09:15:48.9601|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 09:15:48.9601|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 09:15:48.9601|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 09:15:48.9601|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 09:15:48.9601|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 09:15:48.9601|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 09:15:48.9601|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 09:15:48.9601|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 1.9501ms 
+2019-10-16 09:15:48.9601|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9881ms 401  
+2019-10-16 11:48:48.7285|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 11:48:48.7285|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 11:48:48.7285|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 11:48:48.7285|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 11:48:48.7285|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.1219ms 204  
+2019-10-16 11:48:48.7285|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 11:48:48.7285|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 11:48:48.7285|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 11:48:48.7493|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 11:48:48.7493||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 11:48:48.7493|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.481ms. 
+2019-10-16 11:48:48.7493|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 11:48:48.7493|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 19.4565ms 
+2019-10-16 11:48:48.7493|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.421ms 200 application/json; charset=utf-8 
+2019-10-16 11:48:48.7931|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 11:48:48.7931|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 11:48:48.7931|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 11:48:48.7931|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 11:48:48.7931|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 11:48:48.7931|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 11:48:48.7931|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 11:48:48.7931|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 11:48:48.7931|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 3.9399ms 
+2019-10-16 11:48:48.7931|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.9493ms 401  
+2019-10-16 12:20:20.2989|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/employeedetail   
+2019-10-16 12:20:20.2989|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 12:20:20.3616|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 12:20:20.3616|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 12:20:20.4341|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 12:20:20.4341||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 12:20:20.4341|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.5749ms. 
+2019-10-16 12:20:20.4341|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 12:20:20.4341|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 75.4947ms 
+2019-10-16 12:20:20.4341|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 138.1443ms 200 application/json; charset=utf-8 
+2019-10-16 12:20:20.6417|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/favicon.ico   
+2019-10-16 12:20:20.6417|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3536ms 404  
+2019-10-16 12:36:22.0102||DEBUG|WebAPI.Program|init main 
+2019-10-16 12:36:22.5295||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 12:36:22.5744||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 12:36:22.6196||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 12:36:22.8090|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51417/api/employeedetail   
+2019-10-16 12:36:22.9669|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 12:36:23.0464|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 12:36:23.2280|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 12:36:23.3986|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 12:36:23.4670||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 12:36:23.4670|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 425.632ms. 
+2019-10-16 12:36:23.4849|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 12:36:23.5313|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 560.5013ms 
+2019-10-16 12:36:23.5406|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 731.868ms 200 application/json; charset=utf-8 
+2019-10-16 13:32:53.9994||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:32:54.5066||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:32:54.5453||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:32:54.6143||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:32:55.0449|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/values   
+2019-10-16 13:32:55.1833|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-10-16 13:32:55.2498|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-10-16 13:32:55.2498|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2848ms. 
+2019-10-16 13:32:55.2498|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-16 13:32:55.3015|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 114.4576ms 
+2019-10-16 13:32:55.3015|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 263.5754ms 200 application/json; charset=utf-8 
+2019-10-16 13:35:46.2742||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:35:48.3702||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:35:48.5124||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:35:48.5993||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:35:48.7759||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:46097' instead.  
+2019-10-16 13:35:48.7759||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:35:48.7759||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:46097/ 
+2019-10-16 13:35:49.5301||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:35:50.1418||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:35:50.1855||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:35:50.2348||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:35:50.2992||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:15339' instead.  
+2019-10-16 13:35:50.2992||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:35:50.2992||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:15339/ 
+2019-10-16 13:36:00.4934||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:36:02.3456||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:36:02.4334||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:36:02.5120||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:36:02.6598||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:43174' instead.  
+2019-10-16 13:36:02.6598||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:36:02.6598||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:43174/ 
+2019-10-16 13:36:03.4176||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:36:03.8975||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:36:03.9356||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:36:03.9781||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:36:04.0403||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:47922' instead.  
+2019-10-16 13:36:04.0403||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:36:04.0403||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:47922/ 
+2019-10-16 13:36:31.2959||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:36:31.8252||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:36:31.8677||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:36:31.9178||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:36:31.9884||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:11901' instead.  
+2019-10-16 13:36:31.9884||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:36:31.9884||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:11901/ 
+2019-10-16 13:36:35.5483||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:36:36.0867||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:36:36.1299||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:36:36.1817||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:36:36.2549||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:37243' instead.  
+2019-10-16 13:36:36.2549||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:36:36.2549||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:37243/ 
+2019-10-16 13:37:21.5536||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:37:23.3633||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:37:23.4367||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:37:23.5091||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:37:23.6634||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:10467' instead.  
+2019-10-16 13:37:23.6634||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:37:23.6805||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:10467/ 
+2019-10-16 13:37:24.3255||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:37:24.8094||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:37:24.8446||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:37:24.8867||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:37:24.9523||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:1111' instead.  
+2019-10-16 13:37:24.9523||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:37:24.9523||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:1111/ 
+2019-10-16 13:41:48.0188||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:41:49.9986||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:41:50.0714||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:41:50.1514||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:41:50.3025||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:38264' instead.  
+2019-10-16 13:41:50.3112||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:41:50.3112||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:38264/ 
+2019-10-16 13:41:50.9341||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:41:51.4767||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:41:51.5191||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:41:51.5721||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:41:51.6482||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:23175' instead.  
+2019-10-16 13:41:51.6482||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:41:51.6482||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:23175/ 
+2019-10-16 13:42:01.9699||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:42:03.9923||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:42:04.0784||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:42:04.1527||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:42:04.3312||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:32015' instead.  
+2019-10-16 13:42:04.3478||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:42:04.3566||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:32015/ 
+2019-10-16 13:42:05.0888||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:42:05.6303||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:42:05.6684||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:42:05.7164||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:42:05.7932||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:9454' instead.  
+2019-10-16 13:42:05.7932||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:42:05.7932||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:9454/ 
+2019-10-16 13:42:16.2815||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:42:18.2387||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:42:18.3233||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:42:18.4166||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:42:18.5818||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:27109' instead.  
+2019-10-16 13:42:18.5818||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:42:18.5818||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:27109/ 
+2019-10-16 13:42:19.2405||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:42:19.7472||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:42:19.7857||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:42:19.8305||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:42:19.8973||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:37140' instead.  
+2019-10-16 13:42:19.8973||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:42:19.8973||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:37140/ 
+2019-10-16 13:42:56.3942||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:42:56.9005||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:42:56.9391||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:42:56.9895||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:42:57.0588||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:23197' instead.  
+2019-10-16 13:42:57.0596||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:42:57.0596||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:23197/ 
+2019-10-16 13:43:53.4949||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:43:55.3831||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:43:55.4711||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:43:55.5500||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:43:55.7320||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:46351' instead.  
+2019-10-16 13:43:55.7329||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:43:55.7329||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:46351/ 
+2019-10-16 13:43:56.5329||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:43:57.0543||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:43:57.0906||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:43:57.1366||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:43:57.2022||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:15690' instead.  
+2019-10-16 13:43:57.2022||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:43:57.2022||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:15690/ 
+2019-10-16 13:44:10.5545||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:12.4150||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:12.4912||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:12.5659||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:12.7176||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:6350' instead.  
+2019-10-16 13:44:12.7176||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:12.7176||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:6350/ 
+2019-10-16 13:44:13.4329||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:13.9359||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:13.9729||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:14.0176||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:14.0838||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:43933' instead.  
+2019-10-16 13:44:14.0838||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:14.0838||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:43933/ 
+2019-10-16 13:44:28.4330||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:30.5354||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:30.6131||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:30.6972||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:30.8574||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:45211' instead.  
+2019-10-16 13:44:30.8582||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:30.8582||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:45211/ 
+2019-10-16 13:44:31.7635||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:32.2771||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:32.3146||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:32.3599||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:32.4245||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:17656' instead.  
+2019-10-16 13:44:32.4245||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:32.4245||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:17656/ 
+2019-10-16 13:44:44.3747||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:46.2287||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:46.3122||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:46.4022||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:46.5555||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:11641' instead.  
+2019-10-16 13:44:46.5555||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:46.5659||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:11641/ 
+2019-10-16 13:44:47.3132||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:44:47.8494||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:44:47.8874||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:44:47.9323||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:44:48.0026||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:30955' instead.  
+2019-10-16 13:44:48.0026||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:44:48.0026||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:30955/ 
+2019-10-16 13:45:04.2572||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:45:06.2908||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:45:06.3678||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:45:06.4493||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:45:06.6284||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:36572' instead.  
+2019-10-16 13:45:06.6284||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:45:06.6284||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:36572/ 
+2019-10-16 13:45:07.3520||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:45:07.8791||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:45:07.9298||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:45:07.9853||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:45:08.0599||WARN|Microsoft.AspNetCore.Server.HttpSys.MessagePump|Overriding endpoints added to UrlPrefixes since PreferHostingUrls is set to true. Binding to address(es) 'http://127.0.0.1:44879' instead.  
+2019-10-16 13:45:08.0599||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Start 
+2019-10-16 13:45:08.0620||INFO|Microsoft.AspNetCore.Server.HttpSys.HttpSysListener|Listening on prefix: http://127.0.0.1:44879/ 
+2019-10-16 13:52:40.3312||DEBUG|WebAPI.Program|init main 
+2019-10-16 13:52:42.5002||INFO|WebAPI.Startup|Added TodoRepository to services 
+2019-10-16 13:52:42.5964||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\HansikaW\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-16 13:52:42.6765||INFO|WebAPI.Startup|In Development environment 
+2019-10-16 13:52:43.1806|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/values   
+2019-10-16 13:52:43.1806|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:51417/  0 
+2019-10-16 13:52:43.2315|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.6332ms 200  
+2019-10-16 13:52:43.4037|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-10-16 13:52:43.5885|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-10-16 13:52:43.5885|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3279ms. 
+2019-10-16 13:52:43.6003|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-16 13:52:43.6448|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 238.0822ms 
+2019-10-16 13:52:43.6491|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 469.3693ms 200 application/json; charset=utf-8 
+2019-10-16 13:52:50.8142|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/values   
+2019-10-16 13:52:50.8142|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-10-16 13:52:50.8385|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-10-16 13:52:50.8385|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1161ms. 
+2019-10-16 13:52:50.8385|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-16 13:52:50.8385|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 23.8417ms 
+2019-10-16 13:52:50.8385|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.6831ms 200 application/json; charset=utf-8 
+2019-10-16 15:04:37.2755|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/values   
+2019-10-16 15:04:37.3110|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebAPI.Controllers.ValuesController (WebAPI). 
+2019-10-16 15:04:37.3541|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.ValuesController.Get (WebAPI) - Validation state: Valid 
+2019-10-16 15:04:37.3541|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.ValuesController.Get (WebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0178ms. 
+2019-10-16 15:04:37.3623|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-16 15:04:37.3623|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.ValuesController.Get (WebAPI) in 51.6462ms 
+2019-10-16 15:04:37.3623|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.1293ms 200 application/json; charset=utf-8 
+2019-10-16 15:57:15.1253|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:15.1253|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:57:15.1579|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:15.1579|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:15.1709|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.6678ms 204  
+2019-10-16 15:57:15.1963|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:57:15.1963|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:15.1963|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:15.2207|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:57:15.2207|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:57:15.2380|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:57:15.2380|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:57:15.2380|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:57:15.3340|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:57:15.3340|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:57:15.3340|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 110.4076ms 
+2019-10-16 15:57:15.3340|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.7979ms 401  
+2019-10-16 15:57:15.5175|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:57:15.9006|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:57:16.0021||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:57:16.0191|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 797.944ms. 
+2019-10-16 15:57:16.0191|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:57:16.0380|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 841.1444ms 
+2019-10-16 15:57:16.0380|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 916.7757ms 200 application/json; charset=utf-8 
+2019-10-16 15:57:18.8734|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:18.8734|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:18.8734|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:57:18.8734|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:57:18.8734|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:57:18.8734|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:57:18.8734|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:57:18.8734|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:18.8734|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:57:18.8734|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:57:18.9078|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:57:18.9078|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 41.4958ms 
+2019-10-16 15:57:18.9078|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.7008ms 401  
+2019-10-16 15:57:18.9414|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:57:18.9506|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:57:19.0380|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:57:19.0380||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:57:19.0380|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 99.8869ms. 
+2019-10-16 15:57:19.0380|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:57:19.0380|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 164.5709ms 
+2019-10-16 15:57:19.0380|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 167.2097ms 200 application/json; charset=utf-8 
+2019-10-16 15:57:25.8700|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:25.8700|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:25.8700|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:57:25.8700|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1224ms 204  
+2019-10-16 15:57:25.8700|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:25.8700|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:57:25.8984|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:57:25.8984|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:25.8984|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:57:25.8984|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:25.9349|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:57:25.9349|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:57:25.9349|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:57:25.9349|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:57:25.9349||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:57:25.9349|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 3.1945ms 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.8306ms. 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.6262ms 401  
+2019-10-16 15:57:25.9349|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 67.8373ms 
+2019-10-16 15:57:25.9349|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.454ms 200 application/json; charset=utf-8 
+2019-10-16 15:57:33.6309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:33.6309|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:33.6309|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.1526ms 204  
+2019-10-16 15:57:33.6309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:57:33.6309|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:33.6309|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:57:33.6611|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:57:33.6611|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:57:33.7205|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:57:33.7205|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:57:33.7205|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:57:33.7205|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:57:33.7205|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:57:33.7205|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:57:33.7205||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:57:33.7205|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 1.9582ms 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 62.3355ms. 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.6244ms 401  
+2019-10-16 15:57:33.7205|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 89.4092ms 
+2019-10-16 15:57:33.7205|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.6146ms 200 application/json; charset=utf-8 
+2019-10-16 15:59:47.9756|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 15:59:47.9900|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:47.9900|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.4882ms 204  
+2019-10-16 15:59:48.0621|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:59:48.0621|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:48.0621|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:59:48.0621|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:59:48.0621|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:48.0621|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:59:48.0860|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:59:48.1016|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:59:48.1016|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:59:48.1016|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:59:48.1016|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:59:48.1016|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:59:48.1016|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:59:48.1016|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 18.0196ms 
+2019-10-16 15:59:48.1275|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.9842ms 401  
+2019-10-16 15:59:48.1275|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:59:48.1275||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:59:48.1275|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32.3707ms. 
+2019-10-16 15:59:48.1275|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:59:48.1275|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 60.2263ms 
+2019-10-16 15:59:48.1275|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.0184ms 200 application/json; charset=utf-8 
+2019-10-16 15:59:54.6309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 15:59:54.6309|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:54.6309|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.015ms 204  
+2019-10-16 15:59:54.6309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 15:59:54.6309|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:54.6309|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 15:59:54.6594|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 15:59:54.6594|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 15:59:54.7099|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 15:59:54.7099|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 15:59:54.7099|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 15:59:54.7099||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 15:59:54.7099|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 55.2537ms. 
+2019-10-16 15:59:54.7099|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 15:59:54.7099|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 15:59:54.7099|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 80.4397ms 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.2372ms 200 application/json; charset=utf-8 
+2019-10-16 15:59:54.7099|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 15:59:54.7099|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 2.5789ms 
+2019-10-16 15:59:54.7180|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.1612ms 401  
+2019-10-16 16:00:28.6160|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:44305/api/UserProfile   
+2019-10-16 16:00:28.6160|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 16:00:28.6257|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/EmployeeDetail   
+2019-10-16 16:00:28.6257|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9236ms 204  
+2019-10-16 16:00:28.6552|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 16:00:28.6640|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetEmployeeDetails", controller = "EmployeeDetail", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetEmployeeDetails() on controller WebAPI.Controllers.EmployeeDetailController (WebAPI). 
+2019-10-16 16:00:28.6878|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) - Validation state: Valid 
+2019-10-16 16:00:28.6878|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44305/api/UserProfile   
+2019-10-16 16:00:28.6878|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2019-10-16 16:00:28.6878|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.11-servicing-32099 initialized 'AuthenticationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-16 16:00:28.6878|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetUserProfile", controller = "UserProfile", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetUserProfile() on controller WebAPI.Controllers.UserProfileController (WebAPI). 
+2019-10-16 16:00:28.6878|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-10-16 16:00:28.6878|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-10-16 16:00:28.7213|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-10-16 16:00:28.7213|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-10-16 16:00:28.7213|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-10-16 16:00:28.7213|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[EId], [e].[BDay], [e].[EmployeeName], [e].[Nic], [e].[PhoneNo]
+FROM [EmployeeDetails] AS [e] 
+2019-10-16 16:00:28.7213|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.UserProfileController.GetUserProfile (WebAPI) in 34.5454ms 
+2019-10-16 16:00:28.7213|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.6673ms 401  
+2019-10-16 16:00:28.7213||INFO|WebAPI.Controllers.EmployeeDetailController|Message displayed: WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail, WebAPI.Models.EmployeeDetail 
+2019-10-16 16:00:28.7362|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.8863ms. 
+2019-10-16 16:00:28.7362|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPI.Models.EmployeeDetail, WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2019-10-16 16:00:28.7362|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebAPI.Controllers.EmployeeDetailController.GetEmployeeDetails (WebAPI) in 72.7628ms 
+2019-10-16 16:00:28.7362|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.8386ms 200 application/json; charset=utf-8 
