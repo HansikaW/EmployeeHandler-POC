@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj": {}
+    "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj": {}
   },
   "projects": {
-    "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj": {
+    "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
+        "projectUniqueName": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
         "projectName": "testIntegration",
-        "projectPath": "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
+        "projectPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
         "packagesPath": "C:\\Users\\HansikaW\\.nuget\\packages\\",
-        "outputPath": "D:\\WebApplicationTest\\testIntegration\\obj\\",
+        "outputPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
-                "projectPath": "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj"
+              "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+                "projectPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+    "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectUniqueName": "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "projectName": "WebApplicationTest",
-        "projectPath": "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "packagesPath": "C:\\Users\\HansikaW\\.nuget\\packages\\",
-        "outputPath": "D:\\WebApplicationTest\\WebApplicationTest\\obj\\",
+        "outputPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

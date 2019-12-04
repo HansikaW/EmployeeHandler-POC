@@ -3908,7 +3908,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "5Of32r+vIrFGAHSfIfLQghKOcAbroA7ccqUBIZS6eEduDspI3Q/hwsTTlNV+9Ncts+ZKrdUfLf5uEgFBqomPog==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hasTools": true,
@@ -4997,7 +4997,7 @@
       ]
     },
     "Microsoft.Win32.Primitives/4.0.1": {
-      "sha512": "fQnBHO9DgcmkC9dYSJoBqo6sH1VJwJprUHh8F3hbcRlxiQiBUuTntdk8tUwV490OqC2kQUrinGwZyQHTieuXRA==",
+      "sha512": "vnsKs/uQwsnEDvjzuaAp8vATzrTG1GPDHa3xtJs5Z4oh4RVCqHGtElMQov99Je7OZcDOAlfUlMGbDhaUIxMCVA==",
       "type": "package",
       "path": "microsoft.win32.primitives/4.0.1",
       "files": [
@@ -6742,7 +6742,7 @@
       ]
     },
     "System.Globalization.Extensions/4.0.1": {
-      "sha512": "KKo23iKeOaIg61SSXwjANN7QYDr/3op3OWGGzDzz7mypx0Za0fZSeG0l6cco8Ntp8YMYkIQcAqlk8yhm5/Uhcg==",
+      "sha512": "B4fAwAYDHj4rH08y7Pgz1+2mMsgEUfpSalrUOAjBg21HVa82MejXYqYznOGuc3HzM1zTtOs8BK09Ej+CEhhWRA==",
       "type": "package",
       "path": "system.globalization.extensions/4.0.1",
       "files": [
@@ -8238,7 +8238,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
+      "sha512": "xeMlw39uvouzYBPXONGLKBZEIQUlWbct3ui0TQF9pmI9nHDxf9IihVUarzI2qS2ompUJ24O977LFxcTXlYWkPw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
@@ -9871,11 +9871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
+      "projectUniqueName": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
       "projectName": "testIntegration",
-      "projectPath": "D:\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
+      "projectPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\testIntegration.csproj",
       "packagesPath": "C:\\Users\\HansikaW\\.nuget\\packages\\",
-      "outputPath": "D:\\WebApplicationTest\\testIntegration\\obj\\",
+      "outputPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\testIntegration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9894,8 +9894,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
-              "projectPath": "D:\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj"
+            "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+              "projectPath": "D:\\EmployeeHandler-POC\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj"
             }
           }
         }
